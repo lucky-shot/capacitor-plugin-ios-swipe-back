@@ -16,7 +16,9 @@ npx cap sync
 Enable the back/forward swipe gestures support for iOS
 
 ```
-Capacitor.Plugins.IosSwipeBack.enable()
+import IosSwipeBack from 'capacitor-plugin-ios-swipe-back'
+...
+IosSwipeBack.enable()
 ```
 
 ### disable()
@@ -24,7 +26,9 @@ Capacitor.Plugins.IosSwipeBack.enable()
 Disable the back/forward swipe gestures support for iOS
 
 ```
-Capacitor.Plugins.IosSwipeBack.disable()
+import IosSwipeBack from 'capacitor-plugin-ios-swipe-back'
+...
+IosSwipeBack.disable()
 ```
 
 ## Thank You!

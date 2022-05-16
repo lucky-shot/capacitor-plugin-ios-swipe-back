@@ -7,4 +7,4 @@ const IosSwipeBack = registerPlugin<IosSwipeBackPlugin>('IosSwipeBack', {
 });
 
 export * from './definitions';
-export { IosSwipeBack };
+export default IosSwipeBack;
